@@ -1,0 +1,84 @@
+=== SUMMARY (EN) ===
+
+### Summary for AI-102 Exam Preparation: RAG-Based Solutions with Azure AI Foundry
+
+#### Key Concepts and Definitions:
+- **Groundedness**: Ensures generative AI responses are contextually relevant and fact-based by grounding prompts with specific data sources.
+- **Retrieval Augmented Generation (RAG)**: A technique to ground language models by retrieving and augmenting user prompts with relevant data before generating responses.
+- **Embedding**: A vector representation of data enabling semantic understanding and efficient retrieval in searches.
+- **Hybrid Search**: Combines keyword, semantic, and vector search for precise and relevant data retrieval.
+
+#### Important Azure AI Services and Use Cases:
+1. **Azure AI Foundry**: Supports creating RAG-based solutions by integrating your own data, building indexes, and connecting to language models.
+2. **Azure AI Search**: Allows indexing and querying your data for grounding prompts, using techniques like keyword, semantic, vector, or hybrid search.
+3. **Azure OpenAI Embedding Models**: Generates vector embeddings for data, enhancing semantic accuracy during retrieval.
+4. **Prompt Flow**: Orchestrates interactions between tools and language models for generating responses in a structured application.
+
+#### Recommended Design Patterns, Best Practices, and Architecture Tips:
+- Use **RAG pattern** for applications requiring factual, domain-specific responses:
+  - Retrieve relevant data from your repository based on user prompts.
+  - Augment prompts with retrieved context.
+  - Submit prompts to language models to generate grounded responses.
+- **Indexing Best Practices** in Azure AI Search:
+  - Create and configure indexes with formats like keyword, semantic, or vector-based.
+  - Use embeddings for vector search to maximize semantic retrieval.
+  - Opt for **Hybrid Search** for the best accuracy combining keyword and semantic approaches.
+- **Prompt Variants**: Experiment with system messages and formats to optimize response quality.
+- Leverage the **Index Lookup Tool** in Prompt Flow to integrate RAG for grounding responses.
+
+#### Typical Exam Scenarios or Question Types:
+1. **Concept Identification**: Questions on RAG, groundedness, and embedding models (e.g., "What does groundedness refer to?").
+2. **Practical Implementation**: How to integrate RAG in Azure OpenAI SDK or Prompt Flow (e.g., "Add index connection details to the ChatClient configuration").
+3. **Service Features**: Selection of Azure AI services for indexing data or creating embeddings (e.g., "Which Azure AI service supports vector search?").
+4. **Data Retrieval Techniques**: Comparisons of keyword, semantic, vector, and hybrid search approaches.
+
+#### References to Official Azure Documentation:
+- [Azure AI Foundry Documentation](https://learn.microsoft.com)
+- [Azure OpenAI Embedding Models](https://learn.microsoft.com)
+- [Azure AI Search](https://learn.microsoft.com)
+- [Prompt Engineering in Azure AI](https://learn.microsoft.com)
+
+#### Additional Notes:
+- **Python SDK Usage**: Understand how to configure RAG in Python using the Azure OpenAI SDK with index connection details, embedding models, and search types.
+- **Prompt Flow Design**: Familiarize yourself with creating flows that incorporate the RAG pattern for generative AI applications.
+
+This summary targets key AI-102 exam topics like Azure AI services, design principles for grounded generative AI solutions, implementation of RAG, and recommended practices.
+
+=== TRANSLATION (PL) ===
+
+### Podsumowanie przygotowania do egzaminu AI-102: Rozwiązania oparte na RAG z Azure AI Foundry
+
+#### Kluczowe pojęcia i definicje:
+- **Groundedness (Ugruntowanie)**: Zapewnia, że odpowiedzi generowane przez AI są kontekstowo trafne i oparte na faktach, poprzez ugruntowanie promptów w określonych źródłach danych.
+- **Retrieval Augmented Generation (RAG)**: Technika ugruntowania modeli językowych poprzez wyszukiwanie i wzbogacanie promptów użytkownika odpowiednimi danymi przed generowaniem odpowiedzi.
+- **Embedding (Osadzanie)**: Reprezentacja danych w postaci wektorów, umożliwiająca semantyczne rozumienie i efektywne wyszukiwanie w zapytaniach.
+- **Hybrid Search (Wyszukiwanie hybrydowe)**: Łączy wyszukiwanie oparte na słowach kluczowych, semantyczne i wektorowe, aby uzyskać precyzyjne i trafne wyniki.
+
+#### Kluczowe usługi Azure AI i przypadki użycia:
+1. **Azure AI Foundry**: Wspiera tworzenie rozwiązań opartych na RAG poprzez integrację własnych danych, budowanie indeksów i łączenie z modelami językowymi.
+2. **Azure AI Search**: Umożliwia indeksowanie i przeszukiwanie danych w celu ugruntowania promptów, wykorzystując techniki takie jak wyszukiwanie oparte na słowach kluczowych, semantyczne, wektorowe lub hybrydowe.
+3. **Azure OpenAI Embedding Models**: Tworzy wektorowe osadzania danych, zwiększając dokładność semantyczną podczas wyszukiwania.
+4. **Prompt Flow**: Orkiestruje interakcje między narzędziami a modelami językowymi, umożliwiając generowanie odpowiedzi w uporządkowanych aplikacjach.
+
+#### Rekomendowane wzorce projektowe, najlepsze praktyki i wskazówki architektoniczne:
+- Używaj wzorca **RAG** w aplikacjach wymagających faktograficznych, specyficznych dla domeny odpowiedzi:
+  - Pobieraj odpowiednie dane z repozytorium na podstawie promptów użytkownika.
+  - Wzbogacaj prompty o uzyskany kontekst.
+  - Przesyłaj prompty do modeli językowych w celu generowania ugruntowanych odpowiedzi.
+- **Najlepsze praktyki indeksowania** w Azure AI Search:
+  - Twórz i konfiguruj indeksy w formatach takich jak oparte na słowach kluczowych, semantyczne lub wektorowe.
+  - Wykorzystuj osadzania dla wyszukiwania wektorowego, aby zmaksymalizować semantyczne wyszukiwanie.
+  - Wybieraj **Hybrid Search**, aby uzyskać najlepszą dokładność, łącząc podejścia oparte na słowach kluczowych i semantyczne.
+- **Warianty promptów**: Eksperymentuj z wiadomościami systemowymi i formatami, aby zoptymalizować jakość odpowiedzi.
+- Wykorzystaj **Index Lookup Tool** w Prompt Flow, aby zintegrować RAG w celu ugruntowania odpowiedzi.
+
+#### Typowe scenariusze egzaminacyjne lub rodzaje pytań:
+1. **Identyfikacja pojęć**: Pytania dotyczące RAG, groundedness i modeli osadzania (np. „Co oznacza groundedness?”).
+2. **Praktyczna implementacja**: Jak zintegrować RAG w Azure OpenAI SDK lub Prompt Flow (np. „Dodaj szczegóły połączenia z indeksem do konfiguracji ChatClient”).
+3. **Funkcje usług**: Wybór usług Azure AI do indeksowania danych lub tworzenia osadzeń (np. „Która usługa Azure AI obsługuje wyszukiwanie wektorowe?”).
+4. **Techniki wyszukiwania danych**: Porównania wyszukiwania opartego na słowach kluczowych, semantycznego, wektorowego i hybrydowego.
+
+#### Odniesienia do oficjalnej dokumentacji Azure:
+- [Dokumentacja Azure AI Foundry](https://learn.microsoft.com)
+- [Azure OpenAI Embedding Models](https://learn.microsoft.com)
+- [Azure AI Search](https://

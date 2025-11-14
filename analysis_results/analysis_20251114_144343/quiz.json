@@ -1,0 +1,254 @@
+{
+  "questions": [
+    {
+      "question": "What does Artificial Intelligence (AI) enable applications to do?",
+      "options": [
+        "Store large amounts of data in the cloud",
+        "Perform human-like behavior using machine learning models",
+        "Create physical robots for industrial tasks",
+        "Develop hardware for AI processing"
+      ],
+      "correct_answer": "Perform human-like behavior using machine learning models"
+    },
+    {
+      "question": "Which type of AI uses large language models to generate original responses?",
+      "options": [
+        "Reactive AI",
+        "Responsible AI",
+        "Predictive AI",
+        "Generative AI"
+      ],
+      "correct_answer": "Generative AI"
+    },
+    {
+      "question": "What is NOT a core principle of Responsible AI?",
+      "options": [
+        "Fairness",
+        "Profitability",
+        "Transparency",
+        "Inclusiveness"
+      ],
+      "correct_answer": "Profitability"
+    },
+    {
+      "question": "Which Azure AI service is used for conversational agents and content creation?",
+      "options": [
+        "Azure OpenAI",
+        "Azure AI Face",
+        "Azure AI Vision",
+        "Azure AI Translator"
+      ],
+      "correct_answer": "Azure OpenAI"
+    },
+    {
+      "question": "What task can Azure AI Vision perform?",
+      "options": [
+        "Speech translation",
+        "Text summarization",
+        "Object detection",
+        "Sentiment analysis"
+      ],
+      "correct_answer": "Object detection"
+    },
+    {
+      "question": "Which Azure AI service supports speaker recognition?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI Translator",
+        "Azure AI Speech",
+        "Azure AI Search"
+      ],
+      "correct_answer": "Azure AI Speech"
+    },
+    {
+      "question": "What does Azure AI Language NOT perform?",
+      "options": [
+        "Summarization",
+        "Entity extraction",
+        "Image tagging",
+        "Sentiment analysis"
+      ],
+      "correct_answer": "Image tagging"
+    },
+    {
+      "question": "Which Azure AI service translates text across multiple languages?",
+      "options": [
+        "Azure AI Speech",
+        "Azure AI Search",
+        "Azure AI Vision",
+        "Azure AI Translator"
+      ],
+      "correct_answer": "Azure AI Translator"
+    },
+    {
+      "question": "What is a restricted feature of Azure AI Face?",
+      "options": [
+        "Optical character recognition",
+        "Human face detection",
+        "Speech-to-text conversion",
+        "Image classification"
+      ],
+      "correct_answer": "Human face detection"
+    },
+    {
+      "question": "Which Azure AI service extracts data from invoices and forms?",
+      "options": [
+        "Azure AI Custom Vision",
+        "Azure AI Translator",
+        "Azure AI Document Intelligence",
+        "Azure AI Speech"
+      ],
+      "correct_answer": "Azure AI Document Intelligence"
+    },
+    {
+      "question": "What is the purpose of Azure AI Custom Vision?",
+      "options": [
+        "Translating text",
+        "Training custom computer vision models",
+        "Creating conversational agents",
+        "Performing sentiment analysis"
+      ],
+      "correct_answer": "Training custom computer vision models"
+    },
+    {
+      "question": "Which Azure AI service creates searchable indexes for data retrieval?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI Speech",
+        "Azure AI Translator",
+        "Azure AI Search"
+      ],
+      "correct_answer": "Azure AI Search"
+    },
+    {
+      "question": "What is the purpose of Azure AI Foundry?",
+      "options": [
+        "Translating text across multiple languages",
+        "Performing optical character recognition",
+        "Centralized resource management and cost control",
+        "Detecting human faces"
+      ],
+      "correct_answer": "Centralized resource management and cost control"
+    },
+    {
+      "question": "What should you check before using Azure AI services in a specific region?",
+      "options": [
+        "The type of hardware used in the region",
+        "The number of users in the region",
+        "Service availability and quota restrictions",
+        "The weather conditions in the region"
+      ],
+      "correct_answer": "Service availability and quota restrictions"
+    },
+    {
+      "question": "Which tool helps estimate expenses for Azure AI services?",
+      "options": [
+        "Azure AI Translator",
+        "Azure AI Foundry SDK",
+        "Azure pricing calculator",
+        "Azure AI Vision"
+      ],
+      "correct_answer": "Azure pricing calculator"
+    },
+    {
+      "question": "What development tool is recommended for Azure AI projects?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI Translator",
+        "Visual Studio Code with Azure AI Foundry extension",
+        "Microsoft Word"
+      ],
+      "correct_answer": "Visual Studio Code with Azure AI Foundry extension"
+    },
+    {
+      "question": "What is a key step in implementing Responsible AI?",
+      "options": [
+        "Validating training data",
+        "Reducing project costs",
+        "Increasing hardware capacity",
+        "Using only small language models"
+      ],
+      "correct_answer": "Validating training data"
+    },
+    {
+      "question": "Which Azure AI service is best for generative AI tasks?",
+      "options": [
+        "Azure OpenAI",
+        "Azure AI Search",
+        "Azure AI Vision",
+        "Azure AI Translator"
+      ],
+      "correct_answer": "Azure OpenAI"
+    },
+    {
+      "question": "What is the primary use of the Azure AI Foundry SDK?",
+      "options": [
+        "Detecting human faces",
+        "Translating text",
+        "Accessing Azure AI resources",
+        "Performing image tagging"
+      ],
+      "correct_answer": "Accessing Azure AI resources"
+    },
+    {
+      "question": "What principle is NOT part of Responsible AI?",
+      "options": [
+        "Safety",
+        "Privacy",
+        "Accountability",
+        "Profitability"
+      ],
+      "correct_answer": "Profitability"
+    },
+    {
+      "question": "What is the purpose of Azure AI Document Intelligence?",
+      "options": [
+        "Extracting data from complex documents",
+        "Translating text",
+        "Performing sentiment analysis",
+        "Creating searchable indexes"
+      ],
+      "correct_answer": "Extracting data from complex documents"
+    },
+    {
+      "question": "Which Azure AI service supports optical character recognition (OCR)?",
+      "options": [
+        "Azure AI Translator",
+        "Azure AI Vision",
+        "Azure AI Face",
+        "Azure AI Speech"
+      ],
+      "correct_answer": "Azure AI Vision"
+    },
+    {
+      "question": "What is a typical exam scenario for AI-102?",
+      "options": [
+        "Building a new programming language",
+        "Designing physical AI hardware",
+        "Creating a new Azure region",
+        "Identifying the best Azure AI service for a task"
+      ],
+      "correct_answer": "Identifying the best Azure AI service for a task"
+    },
+    {
+      "question": "What is the purpose of Azure AI Search?",
+      "options": [
+        "Detecting human faces",
+        "Creating searchable indexes for data retrieval",
+        "Performing speech-to-text conversion",
+        "Translating text across multiple languages"
+      ],
+      "correct_answer": "Creating searchable indexes for data retrieval"
+    },
+    {
+      "question": "What is a recommended tool for cost management in Azure AI?",
+      "options": [
+        "Azure AI Translator",
+        "Azure AI Speech",
+        "Azure pricing calculator",
+        "Azure AI Vision"
+      ],
+      "correct_answer": "Azure pricing calculator"
+    }
+  ]
+}
