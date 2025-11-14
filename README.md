@@ -19,7 +19,7 @@ Final project for the **Level UP – Academy of Advanced ICT Skills for Women �
 
 ### 1️⃣ Cloning the project
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-document-insight-assistant.git
+git clone https://github.com/MariaOrlowskaYOUR_USERNAME/ai-document-insight-assistant.git
 cd ai-document-insight-assistant
 ```
 
