@@ -1,0 +1,8 @@
+azure-ai-documentintelligence
+openai
+gradio
+python-docx
+python-dotenv
+pandas
+langchain
+tqdm
