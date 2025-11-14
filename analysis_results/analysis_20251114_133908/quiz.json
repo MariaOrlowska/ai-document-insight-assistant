@@ -1,0 +1,254 @@
+{
+  "questions": [
+    {
+      "question": "What are Foundation Models primarily designed for?",
+      "options": [
+        "Cloud infrastructure management",
+        "Database indexing",
+        "Generative AI tasks like NLP and reasoning",
+        "Data storage optimization"
+      ],
+      "correct_answer": "Generative AI tasks like NLP and reasoning"
+    },
+    {
+      "question": "Which architecture enables parallel word processing in NLP?",
+      "options": [
+        "Decision Trees",
+        "Transformer Architecture",
+        "Convolutional Neural Networks",
+        "Recurrent Neural Networks"
+      ],
+      "correct_answer": "Transformer Architecture"
+    },
+    {
+      "question": "What is a Deployment Endpoint used for?",
+      "options": [
+        "Accessing a deployed model via API",
+        "Storing model data",
+        "Monitoring server performance",
+        "Training models on new datasets"
+      ],
+      "correct_answer": "Accessing a deployed model via API"
+    },
+    {
+      "question": "Which Azure AI Foundry service provides a repository of models for generative AI tasks?",
+      "options": [
+        "Azure AI Foundry Model Catalog",
+        "Azure Machine Learning Studio",
+        "Azure Data Factory",
+        "Azure Cognitive Services"
+      ],
+      "correct_answer": "Azure AI Foundry Model Catalog"
+    },
+    {
+      "question": "Which deployment type is recommended for most scenarios?",
+      "options": [
+        "Local Deployment",
+        "Standard Deployment",
+        "Serverless Compute",
+        "Managed Compute"
+      ],
+      "correct_answer": "Standard Deployment"
+    },
+    {
+      "question": "What is the primary advantage of serverless compute deployment?",
+      "options": [
+        "Custom virtual machine hosting",
+        "Pay-as-you-go billing",
+        "Offline model usage",
+        "High precision for domain-specific tasks"
+      ],
+      "correct_answer": "Pay-as-you-go billing"
+    },
+    {
+      "question": "Which model selection criterion focuses on whether fine-tuning is required?",
+      "options": [
+        "Task Type",
+        "Openness",
+        "Precision",
+        "Deployment Method"
+      ],
+      "correct_answer": "Openness"
+    },
+    {
+      "question": "What is the purpose of prompt engineering?",
+      "options": [
+        "To store model outputs",
+        "To enhance model responses",
+        "To monitor server performance",
+        "To deploy models locally"
+      ],
+      "correct_answer": "To enhance model responses"
+    },
+    {
+      "question": "Which optimization strategy integrates external domain-specific data for grounding context?",
+      "options": [
+        "Scaling",
+        "Retrieval Augmented Generation (RAG)",
+        "Prompt Engineering",
+        "Fine-Tuning"
+      ],
+      "correct_answer": "Retrieval Augmented Generation (RAG)"
+    },
+    {
+      "question": "What is the benefit of fine-tuning a model?",
+      "options": [
+        "Automatic endpoint creation",
+        "Reduced deployment costs",
+        "Improved consistency and precision",
+        "Enhanced serverless compute performance"
+      ],
+      "correct_answer": "Improved consistency and precision"
+    },
+    {
+      "question": "Which tool in Azure AI Foundry helps monitor performance and optimize endpoints?",
+      "options": [
+        "Azure AI Foundry tools",
+        "Azure Monitor",
+        "Azure Cognitive Services",
+        "Azure Data Factory"
+      ],
+      "correct_answer": "Azure AI Foundry tools"
+    },
+    {
+      "question": "What is the primary use case for text embedding models?",
+      "options": [
+        "Speech-to-text conversion",
+        "Machine translation",
+        "Search relevance",
+        "Image generation"
+      ],
+      "correct_answer": "Search relevance"
+    },
+    {
+      "question": "Which deployment type is hosted on managed virtual machines?",
+      "options": [
+        "Local Deployment",
+        "Standard Deployment",
+        "Managed Compute",
+        "Serverless Compute"
+      ],
+      "correct_answer": "Managed Compute"
+    },
+    {
+      "question": "What is the purpose of the Chat Playground in Azure AI Foundry?",
+      "options": [
+        "To monitor server performance",
+        "To test deployed models and refine responses",
+        "To deploy models locally",
+        "To store model outputs"
+      ],
+      "correct_answer": "To test deployed models and refine responses"
+    },
+    {
+      "question": "Which model type is suitable for multimodal tasks involving text and images?",
+      "options": [
+        "Multimodal models",
+        "SLMs",
+        "LLMs",
+        "Task-specific models"
+      ],
+      "correct_answer": "Multimodal models"
+    },
+    {
+      "question": "What is the recommended deployment method for cost-effective hosting?",
+      "options": [
+        "Serverless Compute",
+        "Standard Deployment",
+        "Managed Compute",
+        "Local Deployment"
+      ],
+      "correct_answer": "Serverless Compute"
+    },
+    {
+      "question": "Which Azure AI Foundry model is used for image generation tasks?",
+      "options": [
+        "DALL-E",
+        "SLMs",
+        "GPT-4",
+        "Transformer models"
+      ],
+      "correct_answer": "DALL-E"
+    },
+    {
+      "question": "What is the main focus of Retrieval Augmented Generation (RAG)?",
+      "options": [
+        "Scaling model deployments",
+        "Monitoring endpoint performance",
+        "Enhancing model responses with structured prompts",
+        "Integrating external data for grounding context"
+      ],
+      "correct_answer": "Integrating external data for grounding context"
+    },
+    {
+      "question": "Which design pattern involves crafting structured prompts like templates and personas?",
+      "options": [
+        "Scaling",
+        "RAG",
+        "Fine-Tuning",
+        "Prompt Engineering"
+      ],
+      "correct_answer": "Prompt Engineering"
+    },
+    {
+      "question": "What is the primary benefit of using fine-tuned models?",
+      "options": [
+        "Improved domain-specific accuracy",
+        "Enhanced serverless compute performance",
+        "Automatic endpoint creation",
+        "Reduced deployment costs"
+      ],
+      "correct_answer": "Improved domain-specific accuracy"
+    },
+    {
+      "question": "Which Azure AI Foundry deployment type is recommended for hosting OpenAI models?",
+      "options": [
+        "Managed Compute",
+        "Local Deployment",
+        "Standard Deployment",
+        "Serverless Compute"
+      ],
+      "correct_answer": "Standard Deployment"
+    },
+    {
+      "question": "What is the purpose of system messages in prompt engineering?",
+      "options": [
+        "To configure tone, format, and content",
+        "To monitor server performance",
+        "To deploy models locally",
+        "To store model outputs"
+      ],
+      "correct_answer": "To configure tone, format, and content"
+    },
+    {
+      "question": "Which Azure AI Foundry model type is best for reasoning tasks?",
+      "options": [
+        "Task-specific models",
+        "Multimodal models",
+        "LLMs",
+        "SLMs"
+      ],
+      "correct_answer": "LLMs"
+    },
+    {
+      "question": "What is the main advantage of using Azure AI Foundry tools for scaling?",
+      "options": [
+        "Reduced deployment costs",
+        "Automatic endpoint creation",
+        "Monitoring performance and managing prompts",
+        "Enhanced serverless compute performance"
+      ],
+      "correct_answer": "Monitoring performance and managing prompts"
+    },
+    {
+      "question": "Which Azure AI Foundry service is used for deploying AI models?",
+      "options": [
+        "Azure Cognitive Services",
+        "Azure AI Foundry Model Catalog",
+        "Azure Machine Learning Studio",
+        "Azure Data Factory"
+      ],
+      "correct_answer": "Azure AI Foundry Model Catalog"
+    }
+  ]
+}

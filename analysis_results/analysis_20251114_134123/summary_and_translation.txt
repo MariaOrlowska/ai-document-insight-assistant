@@ -1,0 +1,63 @@
+=== SUMMARY (EN) ===
+
+- **Azure AI Foundry**: A comprehensive platform for building, deploying, managing, and scaling AI solutions. Key components include Model Catalog, Copilot Studio, and support for foundational, open-source, task-specific, and industry models.
+
+- **Model Catalog**: Centralized repository for managing various AI models, including pre-trained foundational models, task-specific models, and industry-optimized models. Provides tools for evaluation, customization, and governance.
+
+- **Copilot Studio**: A tool enabling businesses to create AI-powered copilots tailored to their needs. It leverages Azure OpenAI Service and task-specific models to build personalized assistants with minimal coding.
+
+- **Foundational Models**: Large, pre-trained models designed for broad AI use cases, such as language understanding, image recognition, or predictive analytics. Examples include models available in Azure OpenAI Service.
+
+- **Azure OpenAI Service**: Offers access to powerful generative AI models, including GPT and Codex, for tasks like content generation, code completion, and natural language processing. Key features include customization, governance, and monitoring capabilities.
+
+- **Azure AI Search**: Provides intelligent search and indexing functionality across structured and unstructured data, allowing businesses to enhance discovery and context-driven information retrieval.
+
+- **Azure AI Agent Service**: A service for building intelligent conversational agents or bots that integrate natural language understanding and task automation using Azure Bot Framework and related tools.
+
+- **Azure AI Content Safety**: Ensures ethical and secure use of AI by detecting and mitigating harmful or unsafe content in AI applications. Overlaps with governance and monitoring principles.
+
+- **Design Patterns and Architecture**: Recommended patterns include modular AI solutions, responsible AI practices (governance, observability, customization), and the use of managed services to simplify scaling and monitoring.
+
+- **Governance and Monitoring**: Critical for ensuring compliance, tracking performance, and managing AI model lifecycles. Azure provides tools like Azure AI Foundry SDK and observability features for monitoring AI applications.
+
+- **Evaluation and Customization**: Focus on tailoring AI models to specific business needs and evaluating model performance using Azure tools. Typical exam scenarios may ask how to adjust pre-trained models for industry-specific use cases.
+
+- **GitHub Integration**: Supports collaborative development and MLOps workflows for AI projects, enabling version control, CI/CD pipelines, and automated deployment.
+
+- **Exam Scenarios**: Questions may include selecting the correct Azure AI service for specific use cases (e.g., Azure AI Search for discovery), designing AI architectures, or applying responsible AI principles.
+
+- **Official Documentation**: Refer to Azure AI Foundry, Azure OpenAI Service, and Azure AI Monitoring documentation for detailed product capabilities and implementation guides.
+
+Sources can be found directly on [Azure documentation](https://learn.microsoft.com/en-us/azure/).
+
+=== TRANSLATION (PL) ===
+
+- **Azure AI Foundry**: Kompleksowa platforma do tworzenia, wdrażania, zarządzania i skalowania rozwiązań AI. Kluczowe komponenty obejmują Model Catalog, Copilot Studio oraz wsparcie dla modeli bazowych, open-source, modeli zadaniowych i branżowych.
+
+- **Model Catalog**: Centralne repozytorium do zarządzania różnymi modelami AI, w tym wstępnie wytrenowanymi modelami bazowymi, modelami zadaniowymi i zoptymalizowanymi dla branży. Oferuje narzędzia do oceny, dostosowywania i zarządzania.
+
+- **Copilot Studio**: Narzędzie umożliwiające firmom tworzenie asystentów AI dostosowanych do ich potrzeb. Wykorzystuje Azure OpenAI Service oraz modele zadaniowe do budowy spersonalizowanych asystentów przy minimalnym kodowaniu.
+
+- **Foundational Models**: Duże, wstępnie wytrenowane modele zaprojektowane do szerokich zastosowań AI, takich jak rozumienie języka, rozpoznawanie obrazów czy analiza predykcyjna. Przykłady obejmują modele dostępne w Azure OpenAI Service.
+
+- **Azure OpenAI Service**: Umożliwia dostęp do zaawansowanych modeli generatywnych AI, takich jak GPT i Codex, do zadań takich jak generowanie treści, uzupełnianie kodu i przetwarzanie języka naturalnego. Kluczowe funkcje obejmują dostosowywanie, zarządzanie i monitorowanie.
+
+- **Azure AI Search**: Zapewnia inteligentne funkcje wyszukiwania i indeksowania danych strukturalnych i niestrukturalnych, umożliwiając firmom ulepszenie odkrywania informacji i wyszukiwania opartego na kontekście.
+
+- **Azure AI Agent Service**: Usługa do tworzenia inteligentnych agentów konwersacyjnych lub botów, które integrują rozumienie języka naturalnego i automatyzację zadań przy użyciu Azure Bot Framework i powiązanych narzędzi.
+
+- **Azure AI Content Safety**: Zapewnia etyczne i bezpieczne wykorzystanie AI poprzez wykrywanie i ograniczanie szkodliwych lub niebezpiecznych treści w aplikacjach AI. Pokrywa się z zasadami zarządzania i monitorowania.
+
+- **Wzorce projektowe i architektura**: Zalecane wzorce obejmują modułowe rozwiązania AI, odpowiedzialne praktyki AI (zarządzanie, obserwowalność, dostosowywanie) oraz korzystanie z zarządzanych usług w celu uproszczenia skalowania i monitorowania.
+
+- **Zarządzanie i monitorowanie**: Kluczowe dla zapewnienia zgodności, śledzenia wydajności i zarządzania cyklem życia modeli AI. Azure dostarcza narzędzia, takie jak Azure AI Foundry SDK i funkcje obserwowalności do monitorowania aplikacji AI.
+
+- **Ocena i dostosowywanie**: Skupia się na dostosowywaniu modeli AI do specyficznych potrzeb biznesowych oraz ocenie wydajności modeli przy użyciu narzędzi Azure. Typowe scenariusze egzaminacyjne mogą dotyczyć dostosowywania wstępnie wytrenowanych modeli do zastosowań branżowych.
+
+- **Integracja z GitHub**: Wspiera współpracę w rozwoju i przepływy pracy MLOps dla projektów AI, umożliwiając kontrolę wersji, pipeline'y CI/CD i automatyczne wdrażanie.
+
+- **Scenariusze egzaminacyjne**: Pytania mogą obejmować wybór odpowiedniej usługi Azure AI dla określonych przypadków użycia (np. Azure AI Search do odkrywania), projektowanie architektur AI lub stosowanie zasad odpowiedzialnego AI.
+
+- **Oficjalna dokumentacja**: Zapoznaj się z dokumentacją Azure AI Foundry, Azure OpenAI Service i Azure AI Monitoring, aby uzyskać szczegółowe informacje o możliwościach produktów i przewodniki wdrożeniowe.
+
+Źródła można znaleźć bezpośrednio w [dokumentacji Azure](https://learn.microsoft.com/en-us/azure/).

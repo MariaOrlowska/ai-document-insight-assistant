@@ -1,0 +1,87 @@
+=== SUMMARY (EN) ===
+
+### AI-102 Exam Study Summary: Choosing and Deploying Models in Azure AI Foundry
+
+#### Key Concepts and Definitions
+- **Foundation Models**: Pre-trained, large language models (LLMs) like GPT-4 designed to perform generative AI tasks such as natural language processing (NLP), reasoning, multimodal analysis (text + images), and advanced content generation.
+- **Transformer Architecture**: Key innovation in NLP enabling parallel word processing using attention mechanisms and positional encoding.
+- **Deployment Endpoint**: A URL for accessing a deployed model via API, enabling client applications to send input and receive responses.
+
+#### Important Azure AI Services and Use Cases
+- **Azure AI Foundry Model Catalog**: Repository of models for generative AI tasks, including LLMs, SLMs (small language models), multimodal models, and task-specific models like text embedding (e.g., search relevance) and image generation (e.g., DALL-E).
+- **Common Use Cases**: Speech-to-text, machine translation, text classification, entity extraction, summarization, reasoning, question answering, and image creation.
+- **Deployment Types**:
+  - **Standard Deployment**: Hosted in Azure AI Foundry resources (recommended for most scenarios).
+  - **Serverless Compute**: Microsoft-managed endpoints with pay-as-you-go billing.
+  - **Managed Compute**: Hosted on managed virtual machines for custom models.
+
+#### Recommended Design Patterns, Best Practices, and Architecture Tips
+- **Model Selection Criteria**:
+  - **Task Type**: NLP-only or multimodal capabilities (text + images).
+  - **Precision**: Use base or fine-tuned models depending on domain-specific accuracy needs.
+  - **Openness**: Decide whether fine-tuning is required.
+  - **Deployment Method**: Choose between serverless, managed compute, or local deployment based on cost and infrastructure needs.
+- **Optimization Strategies**:
+  - **Prompt Engineering**: Enhance model responses by crafting structured prompts (e.g., templates, personas, system messages).
+  - **Retrieval Augmented Generation (RAG)**: Integrate external domain-specific data for grounding context.
+  - **Fine-Tuning**: Train models further on task-specific datasets for improved consistency and precision.
+- **Scaling**: Use Azure AI Foundry’s tools to monitor performance, manage prompts, and optimize endpoints for real-world workloads.
+
+#### Typical Exam Scenarios or Question Types
+1. **Model Selection**:
+   - Identify the best model for a specific generative AI task using the Azure AI Foundry catalog.
+   - Compare open-source vs. proprietary models based on flexibility and enterprise needs.
+2. **Deployment**:
+   - Determine the appropriate deployment type (standard, serverless, or managed compute) for hosting a model.
+   - Explain the endpoint concept and API communication process.
+3. **Optimization**:
+   - Demonstrate use of prompt engineering techniques such as system messages, templates, and context definition.
+   - Evaluate model performance using benchmarks like accuracy, coherence, fluency, and cost.
+4. **Testing and Troubleshooting**:
+   - Utilize the playground or sandbox to test deployed models and refine their responses.
+   - Optimize responses via strategies like RAG or fine-tuning.
+5. **Assessment Examples**:
+   - Test model interaction in the **Chat Playground**.
+   - Configure tone, format, and content using **system messages**.
+   - Deploy OpenAI models using **Standard Deployment**.
+
+#### References to Official Azure Documentation
+- [Azure AI Foundry Model Catalog](https://learn.microsoft.com/en-us/azure/ai-foundry/)
+- [Deploy AI Models in Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/deployment/)
+- [Prompt Engineering Techniques](https://learn.microsoft.com/en-us/azure/ai-foundry/prompt-engineering/)
+
+=== TRANSLATION (PL) ===
+
+### Podsumowanie nauki do egzaminu AI-102: Wybór i wdrażanie modeli w Azure AI Foundry
+
+#### Kluczowe pojęcia i definicje
+- **Modele podstawowe (Foundation Models)**: Wstępnie wytrenowane, duże modele językowe (LLMs) takie jak GPT-4, zaprojektowane do realizacji zadań generatywnej sztucznej inteligencji, takich jak przetwarzanie języka naturalnego (NLP), rozumowanie, analiza multimodalna (tekst + obrazy) oraz zaawansowane generowanie treści.
+- **Architektura transformera (Transformer Architecture)**: Kluczowa innowacja w NLP umożliwiająca równoległe przetwarzanie słów dzięki mechanizmom uwagi (attention mechanisms) i kodowaniu pozycyjnemu (positional encoding).
+- **Punkt końcowy wdrożenia (Deployment Endpoint)**: URL umożliwiający dostęp do wdrożonego modelu za pomocą API, pozwalający aplikacjom klienckim na przesyłanie danych wejściowych i odbieranie odpowiedzi.
+
+#### Ważne usługi Azure AI i przypadki użycia
+- **Katalog modeli Azure AI Foundry (Azure AI Foundry Model Catalog)**: Repozytorium modeli dla generatywnych zadań AI, obejmujące LLMs, SLMs (małe modele językowe), modele multimodalne oraz modele specyficzne dla zadań, takie jak osadzanie tekstu (np. trafność wyszukiwania) i generowanie obrazów (np. DALL-E).
+- **Typowe przypadki użycia**: Przetwarzanie mowy na tekst, tłumaczenie maszynowe, klasyfikacja tekstu, ekstrakcja jednostek, podsumowywanie, rozumowanie, odpowiadanie na pytania oraz tworzenie obrazów.
+- **Typy wdrożenia**:
+  - **Standardowe wdrożenie (Standard Deployment)**: Hostowane w zasobach Azure AI Foundry (zalecane dla większości scenariuszy).
+  - **Obliczenia bezserwerowe (Serverless Compute)**: Punkty końcowe zarządzane przez Microsoft z rozliczeniem typu „płać za użycie”.
+  - **Zarządzane obliczenia (Managed Compute)**: Hostowane na zarządzanych maszynach wirtualnych dla modeli niestandardowych.
+
+#### Zalecane wzorce projektowe, najlepsze praktyki i wskazówki dotyczące architektury
+- **Kryteria wyboru modelu**:
+  - **Typ zadania**: Tylko NLP czy możliwości multimodalne (tekst + obrazy).
+  - **Precyzja**: Użycie modeli bazowych lub dostrojonych w zależności od potrzeb dotyczących dokładności specyficznej dla domeny.
+  - **Otwartość**: Decyzja, czy wymagane jest dostrajanie modelu.
+  - **Metoda wdrożenia**: Wybór między obliczeniami bezserwerowymi, zarządzanymi obliczeniami lub lokalnym wdrożeniem w zależności od kosztów i potrzeb infrastruktury.
+- **Strategie optymalizacji**:
+  - **Inżynieria promptów (Prompt Engineering)**: Poprawa odpowiedzi modelu poprzez tworzenie strukturalnych promptów (np. szablony, persony, wiadomości systemowe).
+  - **Generowanie wspomagane wyszukiwaniem (Retrieval Augmented Generation, RAG)**: Integracja zewnętrznych danych specyficznych dla domeny w celu zapewnienia kontekstu.
+  - **Dostrajanie (Fine-Tuning)**: Dalsze szkolenie modeli na specyficznych dla zadań zestawach danych w celu poprawy spójności i precyzji.
+- **Skalowanie**: Korzystanie z narzędzi Azure AI Foundry do monitorowania wydajności, zarządzania promptami i optymalizacji punktów końcowych dla obciążeń w rzeczywistych scenariuszach.
+
+#### Typowe scenariusze egzaminacyjne lub rodzaje pytań
+1. **Wybór modelu**:
+   - Określenie najlepszego modelu dla konkretnego zadania generatywnej AI za pomocą katalogu Azure AI Foundry.
+   - Porównanie modeli open-source i własnościowych na podstawie elastyczności i potrzeb przedsiębiorstwa.
+2. **Wdrożenie**:
+   -

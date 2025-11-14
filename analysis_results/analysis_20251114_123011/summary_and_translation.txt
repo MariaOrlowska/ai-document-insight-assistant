@@ -1,0 +1,89 @@
+=== SUMMARY (EN) ===
+
+### Key Concepts and Definitions Relevant to AI-102:
+- **Artificial Intelligence (AI):** Refers to software capabilities enabling human-like behavior in applications, often built on machine learning models.
+- **Generative AI:** AI technology using language models (LLMs or SLMs) to generate text, images, or code based on prompts.
+- **AI Capabilities:** Include generative AI, computer vision, natural language processing (NLP), speech recognition, decision support, and information extraction.
+
+### Important Azure AI Services and Use Cases:
+- **Azure OpenAI:** Offers GPT and DALL-E generative models for tasks like chatbots and image generation. [Azure OpenAI Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
+- **Azure AI Vision:** Provides image recognition, object detection, and text-in-image processing.
+- **Azure AI Speech:** Supports text-to-speech, speech-to-text, speaker recognition, and translation.
+- **Azure AI Language:** Enables NLP tasks such as sentiment analysis, entity extraction, and text summarization.
+- **Azure AI Translator:** Translates text across numerous languages.
+- **Azure AI Custom Vision:** Allows custom training of image classification and object detection models.
+- **Azure AI Document Intelligence:** Extracts fields from documents like invoices and receipts.
+- **Azure AI Search:** Creates searchable indexes with AI capabilities like vector search to enhance generative AI prompts.
+
+### Recommended Design Patterns, Best Practices, and Architecture Tips:
+1. **Resource Management:**
+   - Use **standalone resources** for simple implementations; provision **multi-service resources** for centralized management.
+   - Prefer **Azure AI Foundry** for complex generative AI solutions to streamline project organization and resource access.
+2. **Cost Management:**
+   - Use the **Azure Pricing Calculator** to estimate usage costs. [Azure Pricing](https://azure.microsoft.com/en-us/pricing/calculator/)
+   - Leverage free-tier SKUs for development/testing where available.
+3. **Regional Availability:** Verify service availability in your Azure region for deployment. [Service Availability](https://azure.microsoft.com/en-us/global-infrastructure/services/)
+4. **Development Tools:** Use tools like **Visual Studio Code** with the Azure AI Foundry extension to simplify workflows.
+5. **Responsible AI Principles:**
+   - Follow Microsoft's principles: fairness, reliability, privacy, inclusiveness, transparency, and accountability.
+   - Ensure proper testing, explainability, and governance for AI solutions. [Responsible AI Principles](https://www.microsoft.com/en-us/ai/responsible-ai)
+
+### Typical Exam Scenarios or Question Types:
+- **Service Selection Questions:**
+  - Identify the appropriate Azure AI service (e.g., Azure AI Vision for image processing).
+- **Architecture Scenarios:**
+  - Recommend whether to use standalone vs multi-service resources or Azure AI Foundry for project development.
+- **SDK and API Usage:**
+  - Understand which SDKs (e.g., Azure AI Foundry SDK, Azure OpenAI Models API) to use for specific functionalities.
+- **Responsible AI Considerations:**
+  - Analyze scenarios for fairness, reliability, and inclusiveness in AI implementations.
+- **Cost & Resource Management:**
+  - Questions may require calculating costs or optimizing regional deployments.
+
+### Examples of Questions:
+1. Which Azure resource provides text and speech services from a single endpoint? (Answer: Azure AI Services)
+2. You need to build a generative AI chatbot. Which project type should you use? (Answer: Azure AI Foundry project)
+3. Which SDK would you use to interact with Azure OpenAI? (Answer: Azure OpenAI in Azure AI Foundry Models API)
+
+### References to Official Azure Documentation:
+1. **Azure AI Services Overview:** [Learn more about Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/)
+2. **Azure AI Foundry**: [What is Azure AI Foundry?](https://learn.microsoft.com/en-us/azure/ai-services/overview)
+3. **Responsible AI:** [Microsoft Responsible AI Site](https://www.microsoft.com/en-us/ai/responsible-ai)
+
+=== TRANSLATION (PL) ===
+
+### Kluczowe pojęcia i definicje związane z AI-102:
+- **Sztuczna inteligencja (AI):** Odnosi się do możliwości oprogramowania umożliwiających zachowanie przypominające ludzkie w aplikacjach, często opartych na modelach uczenia maszynowego.
+- **Generatywna AI:** Technologia AI wykorzystująca modele językowe (LLM lub SLM) do generowania tekstu, obrazów lub kodu na podstawie podanych wskazówek.
+- **Możliwości AI:** Obejmują generatywną AI, komputerowe rozpoznawanie obrazów, przetwarzanie języka naturalnego (NLP), rozpoznawanie mowy, wsparcie w podejmowaniu decyzji oraz ekstrakcję informacji.
+
+### Ważne usługi Azure AI i ich zastosowania:
+- **Azure OpenAI:** Udostępnia modele generatywne GPT i DALL-E do zadań takich jak chatboty czy generowanie obrazów. [Dokumentacja Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
+- **Azure AI Vision:** Zapewnia rozpoznawanie obrazów, wykrywanie obiektów oraz przetwarzanie tekstu w obrazach.
+- **Azure AI Speech:** Obsługuje funkcje tekst-na-mowę, mowa-na-tekst, rozpoznawanie mówcy oraz tłumaczenie.
+- **Azure AI Language:** Umożliwia zadania NLP, takie jak analiza sentymentu, ekstrakcja jednostek oraz streszczanie tekstu.
+- **Azure AI Translator:** Tłumaczy tekst na wiele języków.
+- **Azure AI Custom Vision:** Umożliwia niestandardowe szkolenie modeli klasyfikacji obrazów i wykrywania obiektów.
+- **Azure AI Document Intelligence:** Ekstrahuje dane z dokumentów, takich jak faktury czy paragony.
+- **Azure AI Search:** Tworzy indeksy wyszukiwania z funkcjami AI, takimi jak wyszukiwanie wektorowe, aby poprawić wskazówki generatywne AI.
+
+### Zalecane wzorce projektowe, najlepsze praktyki i wskazówki dotyczące architektury:
+1. **Zarządzanie zasobami:**
+   - Używaj **zasobów samodzielnych** dla prostych implementacji; twórz **zasoby wielousługowe** dla scentralizowanego zarządzania.
+   - Preferuj **Azure AI Foundry** dla złożonych rozwiązań generatywnej AI, aby uprościć organizację projektu i dostęp do zasobów.
+2. **Zarządzanie kosztami:**
+   - Korzystaj z **Azure Pricing Calculator**, aby oszacować koszty użytkowania. [Cennik Azure](https://azure.microsoft.com/en-us/pricing/calculator/)
+   - Wykorzystuj darmowe poziomy SKU do celów rozwojowych/testowych, jeśli są dostępne.
+3. **Dostępność regionalna:** Sprawdź dostępność usług w swoim regionie Azure przed wdrożeniem. [Dostępność usług](https://azure.microsoft.com/en-us/global-infrastructure/services/)
+4. **Narzędzia do rozwoju:** Używaj narzędzi takich jak **Visual Studio Code** z rozszerzeniem Azure AI Foundry, aby uprościć przepływy pracy.
+5. **Zasady Odpowiedzialnej AI:**
+   - Przestrzegaj zasad Microsoft: sprawiedliwość, niezawodność, prywatność, inkluzywność, przejrzystość i odpowiedzialność.
+   - Zapewnij odpowiednie testowanie, wyjaśnialność i zarządzanie rozwiązaniami AI. [Zasady Odpowiedzialnej AI](https://www.microsoft.com/en-us/ai/responsible-ai)
+
+### Typowe scenariusze egzaminacyjne lub rodzaje pytań:
+- **Pytania dotyczące wyboru usługi:**
+  - Określ odpowiednią usługę Azure AI (np. Azure AI Vision dla przetwarzania obrazów).
+- **Scenariusze architektury:**
+  - Zarekomenduj, czy użyć zasobów samodzielnych, zasobów wielousługowych czy projektu Azure AI Foundry dla rozwoju projektu.
+- **Użycie SDK i API:**
+  - Zrozum, które SDK (np. Azure AI Foundry SDK, Azure OpenAI Models API) należy użyć w przypadku konkretnych funkcjonal

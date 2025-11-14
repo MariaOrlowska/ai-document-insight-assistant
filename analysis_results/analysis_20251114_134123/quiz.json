@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary purpose of Azure AI Foundry?",
+      "options": [
+        "To build, deploy, manage, and scale AI solutions",
+        "To manage cloud storage solutions",
+        "To provide database management services",
+        "To create virtual machines"
+      ],
+      "correct_answer": "To build, deploy, manage, and scale AI solutions"
+    },
+    {
+      "question": "Which component of Azure AI Foundry acts as a centralized repository for managing AI models?",
+      "options": [
+        "Azure AI Search",
+        "Azure AI Agent Service",
+        "Model Catalog",
+        "Copilot Studio"
+      ],
+      "correct_answer": "Model Catalog"
+    },
+    {
+      "question": "What does Copilot Studio enable businesses to create?",
+      "options": [
+        "AI-powered copilots tailored to their needs",
+        "Database management systems",
+        "Cloud storage solutions",
+        "Virtual machines"
+      ],
+      "correct_answer": "AI-powered copilots tailored to their needs"
+    },
+    {
+      "question": "Which Azure service provides access to generative AI models like GPT and Codex?",
+      "options": [
+        "Azure OpenAI Service",
+        "Azure AI Agent Service",
+        "Model Catalog",
+        "Azure AI Search"
+      ],
+      "correct_answer": "Azure OpenAI Service"
+    },
+    {
+      "question": "What is the primary function of Azure AI Search?",
+      "options": [
+        "To detect harmful content in AI applications",
+        "To create conversational agents",
+        "To manage AI model lifecycles",
+        "To provide intelligent search and indexing functionality"
+      ],
+      "correct_answer": "To provide intelligent search and indexing functionality"
+    },
+    {
+      "question": "Which service is used to build conversational agents or bots?",
+      "options": [
+        "Copilot Studio",
+        "Model Catalog",
+        "Azure AI Agent Service",
+        "Azure AI Search"
+      ],
+      "correct_answer": "Azure AI Agent Service"
+    },
+    {
+      "question": "What is the purpose of Azure AI Content Safety?",
+      "options": [
+        "To manage AI model repositories",
+        "To detect and mitigate harmful or unsafe content in AI applications",
+        "To create AI-powered copilots",
+        "To provide cloud storage solutions"
+      ],
+      "correct_answer": "To detect and mitigate harmful or unsafe content in AI applications"
+    },
+    {
+      "question": "Which of the following is NOT a key feature of Azure OpenAI Service?",
+      "options": [
+        "Cloud storage",
+        "Monitoring",
+        "Customization",
+        "Governance"
+      ],
+      "correct_answer": "Cloud storage"
+    },
+    {
+      "question": "What are foundational models designed for?",
+      "options": [
+        "Specific industry use cases",
+        "Creating conversational agents",
+        "Detecting harmful content",
+        "Broad AI use cases like language understanding and image recognition"
+      ],
+      "correct_answer": "Broad AI use cases like language understanding and image recognition"
+    },
+    {
+      "question": "What is a recommended design pattern for AI solutions?",
+      "options": [
+        "Using modular AI solutions",
+        "Disabling observability features",
+        "Avoiding governance practices",
+        "Using unmanaged services"
+      ],
+      "correct_answer": "Using modular AI solutions"
+    },
+    {
+      "question": "Which tool supports collaborative development and MLOps workflows for AI projects?",
+      "options": [
+        "Azure AI Search",
+        "GitHub Integration",
+        "Model Catalog",
+        "Azure AI Agent Service"
+      ],
+      "correct_answer": "GitHub Integration"
+    },
+    {
+      "question": "What is the focus of evaluation and customization in Azure AI?",
+      "options": [
+        "Tailoring AI models to specific business needs",
+        "Creating virtual machines",
+        "Providing cloud storage solutions",
+        "Detecting harmful content"
+      ],
+      "correct_answer": "Tailoring AI models to specific business needs"
+    },
+    {
+      "question": "Which Azure AI service is best suited for enhancing discovery and context-driven information retrieval?",
+      "options": [
+        "Model Catalog",
+        "Copilot Studio",
+        "Azure AI Search",
+        "Azure AI Agent Service"
+      ],
+      "correct_answer": "Azure AI Search"
+    },
+    {
+      "question": "What does Azure AI Foundry SDK provide?",
+      "options": [
+        "Tools for monitoring AI applications",
+        "Database management services",
+        "Cloud storage solutions",
+        "Virtual machine creation"
+      ],
+      "correct_answer": "Tools for monitoring AI applications"
+    },
+    {
+      "question": "What is a key feature of Copilot Studio?",
+      "options": [
+        "Detecting harmful content",
+        "Managing AI model repositories",
+        "Creating AI-powered copilots with minimal coding",
+        "Providing cloud storage solutions"
+      ],
+      "correct_answer": "Creating AI-powered copilots with minimal coding"
+    },
+    {
+      "question": "What does Azure AI Content Safety overlap with?",
+      "options": [
+        "Governance and monitoring principles",
+        "Database management services",
+        "Virtual machine creation",
+        "Cloud storage solutions"
+      ],
+      "correct_answer": "Governance and monitoring principles"
+    },
+    {
+      "question": "What is the purpose of governance and monitoring in Azure AI?",
+      "options": [
+        "To create virtual machines",
+        "To provide cloud storage solutions",
+        "To ensure compliance and track performance",
+        "To detect harmful content"
+      ],
+      "correct_answer": "To ensure compliance and track performance"
+    },
+    {
+      "question": "Which Azure AI service uses the Azure Bot Framework?",
+      "options": [
+        "Azure AI Search",
+        "Model Catalog",
+        "Copilot Studio",
+        "Azure AI Agent Service"
+      ],
+      "correct_answer": "Azure AI Agent Service"
+    },
+    {
+      "question": "What is a typical exam scenario for Azure AI Foundry?",
+      "options": [
+        "Creating virtual machines",
+        "Detecting harmful content",
+        "Providing cloud storage solutions",
+        "Selecting the correct Azure AI service for specific use cases"
+      ],
+      "correct_answer": "Selecting the correct Azure AI service for specific use cases"
+    },
+    {
+      "question": "What does the Model Catalog provide tools for?",
+      "options": [
+        "Creating virtual machines",
+        "Detecting harmful content",
+        "Evaluation, customization, and governance",
+        "Providing cloud storage solutions"
+      ],
+      "correct_answer": "Evaluation, customization, and governance"
+    },
+    {
+      "question": "What is a key feature of foundational models?",
+      "options": [
+        "They are specific to conversational agents",
+        "They are used for cloud storage solutions",
+        "They are designed for detecting harmful content",
+        "They are pre-trained for broad AI use cases"
+      ],
+      "correct_answer": "They are pre-trained for broad AI use cases"
+    },
+    {
+      "question": "What does Azure AI Foundry support?",
+      "options": [
+        "Only task-specific models",
+        "Only foundational models",
+        "Foundational, open-source, task-specific, and industry models",
+        "Only open-source models"
+      ],
+      "correct_answer": "Foundational, open-source, task-specific, and industry models"
+    },
+    {
+      "question": "What is the purpose of Azure OpenAI Service?",
+      "options": [
+        "To create virtual machines",
+        "To manage cloud storage solutions",
+        "To provide access to generative AI models for tasks like content generation",
+        "To detect harmful content"
+      ],
+      "correct_answer": "To provide access to generative AI models for tasks like content generation"
+    },
+    {
+      "question": "What is a key feature of responsible AI practices?",
+      "options": [
+        "Governance and observability",
+        "Disabling monitoring",
+        "Avoiding customization",
+        "Using unmanaged services"
+      ],
+      "correct_answer": "Governance and observability"
+    },
+    {
+      "question": "Which Azure AI service is best for code completion tasks?",
+      "options": [
+        "Azure AI Search",
+        "Azure OpenAI Service",
+        "Model Catalog",
+        "Azure AI Agent Service"
+      ],
+      "correct_answer": "Azure OpenAI Service"
+    },
+    {
+      "question": "Where can detailed product capabilities and implementation guides for Azure AI be found?",
+      "options": [
+        "Azure AI Agent Service",
+        "Microsoft Excel",
+        "GitHub",
+        "Azure documentation"
+      ],
+      "correct_answer": "Azure documentation"
+    }
+  ]
+}
