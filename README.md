@@ -43,13 +43,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-After activation run:
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-
 ### 2️⃣ Installing dependencies
 ```bash
 pip install -r requirements.txt
